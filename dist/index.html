@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f47b20">
+  <meta name="description" content="Прототип каталога «Ремонт и строительство»: инструменты, оснастка, подбор по этапам работ и аккумуляторные платформы.">
+  <title>Ремонт и строительство — каталог DIY</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js?v=20261102" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#content">Перейти к каталогу</a>
+  <header class="site-header">
+    <div class="header-shell">
+      <a class="brand" href="#/" aria-label="DNS, на главную"><span class="brand-symbol">DNS</span><span><strong>Инструменты</strong><small>структура каталога</small></span></a>
+      <button class="catalog-button" id="catalog-toggle" aria-expanded="false" aria-controls="catalog-menu"><span aria-hidden="true">☰</span> Каталог <span class="chevron" aria-hidden="true">⌄</span></button>
+      <form id="search-form" class="search-wrap" role="search">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg>
+        <label class="sr-only" for="search">Поиск по каталогу</label>
+        <input id="search" type="search" autocomplete="off" placeholder="Найти инструмент, категорию или работу" aria-controls="search-results" aria-expanded="false">
+        <div id="search-results" class="search-results" hidden></div>
+      </form>
+      <button class="tree-button" id="tree-open">Дерево структуры</button>
+    </div>
+  </header>
+  <div id="catalog-menu" class="catalog-overlay" hidden></div>
+  <main class="page-shell" id="content" tabindex="-1"><p class="loading">Загружаем каталог…</p></main>
+  <footer><strong>Прототип каталога DIY</strong><span id="source-summary">Структура каталога · 02.11.2026</span><a href="https://sarancsk4536-ship-it.github.io/DNS_koncept_2/" target="_blank" rel="noopener">Исходный концепт ↗</a></footer>
+  <dialog id="tree-dialog" aria-labelledby="tree-title">
+    <div class="tree-panel"><header><div><small>Ремонт и строительство</small><h2 id="tree-title">Дерево структуры</h2></div><button class="icon-button" id="tree-close" aria-label="Закрыть дерево">×</button></header>
+    <div class="tree-tools"><input id="tree-search" type="search" placeholder="Найти в дереве" aria-label="Найти в дереве"><button id="tree-expand">Развернуть всё</button><button id="tree-collapse">Свернуть</button></div>
+    <div class="tree-content" id="tree-content"></div></div>
+  </dialog>
+  <noscript><p class="loading">Для просмотра интерактивного каталога включите JavaScript.</p></noscript>
+</body>
+</html>
+
