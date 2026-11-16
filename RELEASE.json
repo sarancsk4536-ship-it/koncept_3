@@ -1,0 +1,402 @@
+{
+  "title": "Концепт 3 — полная сборка",
+  "date": "16.11.2026",
+  "data": {
+    "nodes": 1625,
+    "leaves": 1400,
+    "placements": 1627,
+    "maxLevel": 6
+  },
+  "files": [
+    {
+      "path": ".nojekyll",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1
+    },
+    {
+      "path": "README.md",
+      "sha256": "9e86b5fe0b5ad017b11a9426fde2b7aa89b1f2c3f5dca1c0adbb2eedeb1e199d",
+      "bytes": 3987
+    },
+    {
+      "path": "dist/app.js",
+      "sha256": "fbba1755f5af3d8b6579fa34910dec9abf4b3586179f98d72f6a52b142b2ed8e",
+      "bytes": 14709
+    },
+    {
+      "path": "dist/assets/generated/platform-brands/aceline.webp",
+      "sha256": "216d6d64a4f6e5e4f99a31b049f75181edf3dfbe66c17afea7fabee4f3a83b42",
+      "bytes": 171906
+    },
+    {
+      "path": "dist/assets/generated/platform-brands/aeg.webp",
+      "sha256": "8334771537de192953c231b1b61b246308152ce55c1340ea9180649a85076e36",
+      "bytes": 199696
+    },
+    {
+      "path": "dist/assets/generated/platform-brands/bosch.webp",
+      "sha256": "61735731cffd176e53f05cfec22a4ba7e1c83ee9100e5f2ea66fce92ab5826f8",
+      "bytes": 197290
+    },
+    {
+      "path": "dist/assets/generated/platform-brands/cat.webp",
+      "sha256": "b3aaa342b2420774a4ea56209282815537d3ef696a73506bf21e739638f33e37",
+      "bytes": 234288
+    },
+    {
+      "path": "dist/assets/generated/platform-brands/daewoo.webp",
+      "sha256": "864b4396429bd1a271adc27a9cd0ef9ff980a27375685da97281ec87624a9f99",
+      "bytes": 197506
+    },
+    {
+      "path": "dist/assets/generated/platform-brands/deko.webp",
+      "sha256": "a53a629757804b574f58384c24c1ac55948093b31bd68b82d65df3d2a6dfa775",
+      "bytes": 267106
+    },
+    {
+      "path": "dist/assets/generated/platform-brands/dewalt.webp",
+      "sha256": "a56cf460a3848c69602098a12be7f878efa053d8f6932b32572fa725e90faa76",
+      "bytes": 237546
+    },
+    {
+      "path": "dist/assets/generated/platform-brands/einhell.webp",
+      "sha256": "bf0243383930c985f9c0fc8e72e3a16dd8c54e5cd68442b6737f0c9d2c521c4c",
+      "bytes": 195186
+    },
+    {
+      "path": "dist/assets/generated/platform-brands/finepower.webp",
+      "sha256": "5b29b1887c4aaa755ffc9e98629d6591afc7743416086453a61cdfda80aa3d36",
+      "bytes": 179310
+    },
+    {
+      "path": "dist/assets/generated/platform-brands/greenworks.webp",
+      "sha256": "d14943bc56f85a36794963ac5378574a04bc312990873a57a370a96170ef4a6e",
+      "bytes": 163660
+    },
+    {
+      "path": "dist/assets/generated/platform-brands/hanskonner.webp",
+      "sha256": "344e9091efc82b9a6575c0a5c0ae40c5f66d725f7a8023b67af9cef0aa873cce",
+      "bytes": 183630
+    },
+    {
+      "path": "dist/assets/generated/platform-brands/hyundai.webp",
+      "sha256": "e15214a43d70bb24b5c22413f687f480b3d1e764677cec4982fd56c1eca8ac79",
+      "bytes": 196028
+    },
+    {
+      "path": "dist/assets/generated/platform-brands/interskol.webp",
+      "sha256": "0e51e1c515eaa33fb17482e0bdc09a4b810bc5b0d76246d51bce668e1128b023",
+      "bytes": 185118
+    },
+    {
+      "path": "dist/assets/generated/platform-brands/karcher.webp",
+      "sha256": "3fd7b4f3d66e24ec663670438c9191c8b8857b98d370f851b51541790a9306ea",
+      "bytes": 162332
+    },
+    {
+      "path": "dist/assets/generated/platform-brands/makita.webp",
+      "sha256": "c90048691c888c4b0640ada75be4a8366db54010af759b873d9bd50f2b8a38e5",
+      "bytes": 170232
+    },
+    {
+      "path": "dist/assets/generated/platform-brands/metabo.webp",
+      "sha256": "4db0b5d2247953ed62b313c4459e92ec440a874804a912436c187d317057874a",
+      "bytes": 240950
+    },
+    {
+      "path": "dist/assets/generated/platform-brands/p-i-t.webp",
+      "sha256": "9a4000dcb3cf9eebb89b66cd1744e75c0e54e49ccbbbdf35d8f667544191920f",
+      "bytes": 246198
+    },
+    {
+      "path": "dist/assets/generated/platform-brands/patriot.webp",
+      "sha256": "4bc1a98e1f7eb377d38d151c62e8465ea1c2eefcab4ec823c64e9eb6fe4666e1",
+      "bytes": 191032
+    },
+    {
+      "path": "dist/assets/generated/platform-brands/redverg.webp",
+      "sha256": "83f079cbd51c41d377860405a71669b9858b0d3c2f8b860fa84949966bade7b5",
+      "bytes": 201686
+    },
+    {
+      "path": "dist/assets/generated/platform-brands/ryobi.webp",
+      "sha256": "9389d03638c673fcfcc33665902ee515aaa4bf23197919c5f98b92b01ad4ce26",
+      "bytes": 241440
+    },
+    {
+      "path": "dist/assets/generated/platform-brands/senix.webp",
+      "sha256": "9618af8ad42defd24ed6034119e095d5fcd85dc0366fdd9bcef1d0c8cb319c7f",
+      "bytes": 190386
+    },
+    {
+      "path": "dist/assets/generated/platform-brands/sturm.webp",
+      "sha256": "1ba0b713ab9ac1b8124a0dccb1131528de07b3dabe4d5878be380c89d0c8e79d",
+      "bytes": 237494
+    },
+    {
+      "path": "dist/assets/generated/platform-brands/wesco.webp",
+      "sha256": "5993d61ab1728c67baa3a30bae9ca6c375eb84c7a3c50733e497cc636ea59990",
+      "bytes": 198318
+    },
+    {
+      "path": "dist/assets/generated/platform-brands/worx.webp",
+      "sha256": "a9c38a72020f4ea882063cca394b4d9a865dba9f657ed294d75b2e09912a21b8",
+      "bytes": 219794
+    },
+    {
+      "path": "dist/assets/generated/platform-brands/zubr.webp",
+      "sha256": "4a882e0108c8498e3b791991e2c40f20a6c08a4c9a730b775b65b3d9d6c50f66",
+      "bytes": 199758
+    },
+    {
+      "path": "dist/assets/generated/stages/assembly-and-fastening.webp",
+      "sha256": "9f55abf9d79ba52ebe1a02b3112bfaab299392e3604f436948c5fe16ace5652d",
+      "bytes": 32662
+    },
+    {
+      "path": "dist/assets/generated/stages/base-preparation.webp",
+      "sha256": "65174117e6e4884d7f23862ae2060d8e62bbb7cc9adb689b7ec196f687e15c03",
+      "bytes": 111118
+    },
+    {
+      "path": "dist/assets/generated/stages/cleaning-inspection-and-handover.webp",
+      "sha256": "262de883a72715517255377c2048e8f56e137537ee77fe28ba7b481f2ab7f514",
+      "bytes": 16062
+    },
+    {
+      "path": "dist/assets/generated/stages/compressor-equipment.webp",
+      "sha256": "b139174876826cba0b876c2b107f64fa8a7473e0d90688259d4b07176ef91563",
+      "bytes": 35164
+    },
+    {
+      "path": "dist/assets/generated/stages/concrete-masonry-and-holes.webp",
+      "sha256": "8deede8be69d7184edd5888d1c6e13b00001ed4cec02683d670e48f57f790856",
+      "bytes": 39254
+    },
+    {
+      "path": "dist/assets/generated/stages/demolition-and-clearing.webp",
+      "sha256": "04a0d10751ff3d5ab80aa93ab5af490a03c9f0dd21fef6c7efb756f2b65913db",
+      "bytes": 50892
+    },
+    {
+      "path": "dist/assets/generated/stages/dust-removal.webp",
+      "sha256": "6d58acde1a9178583225db71960b841cf864d0a545d38b577263bdde36eee536",
+      "bytes": 40254
+    },
+    {
+      "path": "dist/assets/generated/stages/electrical-installation.webp",
+      "sha256": "40ea854cc3208f00923f678de8fa4e3f2a8581e5d2cfe1ea76dbec6167e65b7e",
+      "bytes": 72940
+    },
+    {
+      "path": "dist/assets/generated/stages/engineering-utilities.webp",
+      "sha256": "d0cd914fdfdec8701c2c611d268af70821aaf925a7b1b39c2afa977056d371d7",
+      "bytes": 28334
+    },
+    {
+      "path": "dist/assets/generated/stages/final-inspection.webp",
+      "sha256": "df0a45c8fea6a1f11a3f8222af5dbca6d3afcded09dd7bd8c6fd69cdb9e2b0f7",
+      "bytes": 23878
+    },
+    {
+      "path": "dist/assets/generated/stages/finish-work.webp",
+      "sha256": "1bb2f5cd2842c8617ecbe9c5d63ca1f14114db7ee9501ea7bad56be40606c388",
+      "bytes": 25982
+    },
+    {
+      "path": "dist/assets/generated/stages/installation-of-structures-and-equipment.webp",
+      "sha256": "f396b3cc3981bbbc9997070c6b0064e32c8feab8711b244933e7bed2c1424d48",
+      "bytes": 25572
+    },
+    {
+      "path": "dist/assets/generated/stages/lighting-and-work-at-height.webp",
+      "sha256": "896b5592f34625e9d4310c2f7c3972a13bebaeecd85921adb59b4aa5afd51d12",
+      "bytes": 22060
+    },
+    {
+      "path": "dist/assets/generated/stages/machine-tool-work.webp",
+      "sha256": "98ee1691d8ae822efece3221a5524dc6006e0a047ace204ea5ab21451271c2ba",
+      "bytes": 31008
+    },
+    {
+      "path": "dist/assets/generated/stages/measurement-and-layout.webp",
+      "sha256": "441425cd346f8dc5dcd29f193a90bbe4123dbf0efe19d18803d42e649200090c",
+      "bytes": 37922
+    },
+    {
+      "path": "dist/assets/generated/stages/metal-structures.webp",
+      "sha256": "7672f18b376f85baaa00ec00118fa55c7621780351c69c5fd0f25376bea2aaa8",
+      "bytes": 31822
+    },
+    {
+      "path": "dist/assets/generated/stages/mineral-substrates.webp",
+      "sha256": "186faffd36d58fac4bb96e9d4911f52a0db067e6a81fe6c9ae2db3295de252c2",
+      "bytes": 45498
+    },
+    {
+      "path": "dist/assets/generated/stages/painting-and-finishing.webp",
+      "sha256": "645ceecc9932bc961d873b371a4d2c73e2cc22a768d4439c1d972d164e9d8f3c",
+      "bytes": 27002
+    },
+    {
+      "path": "dist/assets/generated/stages/plumbing-and-heating.webp",
+      "sha256": "97da212338042f6b72aaf9898d60971e88f85b8655bc6648fe7c2e5de0f9702c",
+      "bytes": 54506
+    },
+    {
+      "path": "dist/assets/generated/stages/pneumatic-installation.webp",
+      "sha256": "c5377819d4695384cbdc1bae485047003ecab72cd77e713b7267ceb3ba4d8c07",
+      "bytes": 34942
+    },
+    {
+      "path": "dist/assets/generated/stages/pneumatic-painting-and-surface-treatment.webp",
+      "sha256": "1414ea7c284d035fc91471568a18cde5d05ad12252f9f544a59d462a906c17ad",
+      "bytes": 31354
+    },
+    {
+      "path": "dist/assets/generated/stages/preparation-safety-and-layout.webp",
+      "sha256": "74974759173949a0f9b10b559e2138cc1aca6cfd7f238cc619c30e6f9cf8f647",
+      "bytes": 29202
+    },
+    {
+      "path": "dist/assets/generated/stages/rough-construction-work.webp",
+      "sha256": "c2e49e420b53ce2d6b913c0eeb8aba80348be924c99003a902f16e9eaeaa7c22",
+      "bytes": 38270
+    },
+    {
+      "path": "dist/assets/generated/stages/safety-and-ppe.webp",
+      "sha256": "78ebb47ee411a3b81539d8ee06d2517671297f6cda1da549674435d07209a34f",
+      "bytes": 45450
+    },
+    {
+      "path": "dist/assets/generated/stages/selection-by-work-stages.webp",
+      "sha256": "b00e5fbfbf073fc7c0e4d04d9a1b0d6ef4c2d09d91395efa3aebb3044132dd01",
+      "bytes": 32048
+    },
+    {
+      "path": "dist/assets/generated/stages/site-washing.webp",
+      "sha256": "40d462f3c9c62c2b19ecb8f1aeafd914ced61bc78bdd1610419b9ee975d1bbc3",
+      "bytes": 65718
+    },
+    {
+      "path": "dist/assets/generated/stages/surface-preparation.webp",
+      "sha256": "364cf9030f27beafdf2bc4b852592717453e1a0e0175f9cd0a4700f5ac1c6195",
+      "bytes": 32362
+    },
+    {
+      "path": "dist/assets/generated/stages/temporary-power-supply.webp",
+      "sha256": "2ccae9f6623c197fcd762b053133533012ef56cdee135db06e94e9c3231bd3de",
+      "bytes": 60710
+    },
+    {
+      "path": "dist/assets/generated/stages/tile-stone-and-glass.webp",
+      "sha256": "ed3a4b5cff846106347423ef79248fa7bd698edc2d86e9ea526bad03626f479c",
+      "bytes": 37388
+    },
+    {
+      "path": "dist/assets/generated/stages/tile-substrates.webp",
+      "sha256": "b1d5254861919efa37b32ec7394c7345089f90d65f23076442080e614f737dbb",
+      "bytes": 43242
+    },
+    {
+      "path": "dist/assets/generated/stages/tool-preparation.webp",
+      "sha256": "c726a1fd23ba354bae792b4fbdca8154e28511f690996f5dc3014fae3b1700c0",
+      "bytes": 25134
+    },
+    {
+      "path": "dist/assets/generated/stages/vehicle-and-equipment-repair.webp",
+      "sha256": "d63ead7e55133847011e23727893f8cff1999ad96d911d852443fe36f6f387cd",
+      "bytes": 46168
+    },
+    {
+      "path": "dist/assets/generated/stages/walls-and-ceilings.webp",
+      "sha256": "48def37707e0f91d5c5a7f8d04b0ad63bc2164597c076f2b39feddcdf9efb329",
+      "bytes": 35950
+    },
+    {
+      "path": "dist/assets/generated/stages/walls-and-partitions.webp",
+      "sha256": "a249b64ba8f153c46910a37d846a0afc93b2a45e0cdc3c04676688ccada5679d",
+      "bytes": 26380
+    },
+    {
+      "path": "dist/assets/generated/stages/welding-of-metal-structures.webp",
+      "sha256": "cf8817dfe969f703c89b92eb850ee9ce55d3d9b5d01e98ba26ba6e4d4a92ab1f",
+      "bytes": 34230
+    },
+    {
+      "path": "dist/assets/generated/stages/wooden-structures.webp",
+      "sha256": "37d76c86cbe97a598e95d0aca958f016b5b09e8496634a95e7ce32e4ee087e74",
+      "bytes": 38738
+    },
+    {
+      "path": "dist/assets/generated/stages/workshop-and-maintenance.webp",
+      "sha256": "c592b599e273c6f8ca15a7d6ddf4d955bb06fac3c7bf6f637bcac34fe6df80d1",
+      "bytes": 35794
+    },
+    {
+      "path": "dist/assets/generated/stages/worksite-organization.webp",
+      "sha256": "989cd9593205ecc0d03ff851aa26fc4c556e7c832a83561e8f3928e781c64141",
+      "bytes": 46878
+    },
+    {
+      "path": "dist/catalog-data.js",
+      "sha256": "cb74f1db443f30b900b2536486e663878eb0a7c85cfb85990fba962fc35b189f",
+      "bytes": 452580
+    },
+    {
+      "path": "dist/catalog.json",
+      "sha256": "aa4af7a1a37f9ecd3d4574767534fc9783de28e00567c94bc34923cc3f1367c0",
+      "bytes": 452560
+    },
+    {
+      "path": "dist/favicon.svg",
+      "sha256": "a8d9adfec3bfad15e265d9aceee293f2fd9e4c51cdfa706e7f0b551d7116b819",
+      "bytes": 249
+    },
+    {
+      "path": "dist/index.html",
+      "sha256": "71cc16a5f1a948e93678f42ba361e9757a4addf0697ded2a5806f89695ef2543",
+      "bytes": 3311
+    },
+    {
+      "path": "dist/styles.css",
+      "sha256": "9bdc036a04397c336b561f553cee513938f09a77130718398662a8a71a0ba126",
+      "bytes": 14381
+    },
+    {
+      "path": "index.html",
+      "sha256": "5c2db909d05390d7bc4251c346dea2f6ba01fec90f6a7af6d7fb604c12cd1fb1",
+      "bytes": 478
+    },
+    {
+      "path": "scripts/build-data.py",
+      "sha256": "670303b99f2fd5365c4cecdbc6c8903ae47820c4bc9e98188d4e166fd9b6ea45",
+      "bytes": 7815
+    },
+    {
+      "path": "scripts/catalog-source.md",
+      "sha256": "f6882b15b165feb972b092d89ec78bb16aa4436e5b39361a15a01d7edadbd678",
+      "bytes": 409068
+    },
+    {
+      "path": "scripts/placement-audit.json",
+      "sha256": "2eb2f9c461627c1dd6d6ad48a0f0b271bcadc8414cd49b365f051da570beb689",
+      "bytes": 255120
+    },
+    {
+      "path": "scripts/reference-links.json",
+      "sha256": "27e334ad82bff11cad3e128f1da80c7956d3b795216bac21cd9f46b825ec0e5c",
+      "bytes": 38899
+    },
+    {
+      "path": "scripts/sheet-source.json",
+      "sha256": "46783d424d106855ea3c132bde7656d2adcd1f7dcc2c83d8027bd3b64da0fc6b",
+      "bytes": 485518
+    },
+    {
+      "path": "scripts/verify.py",
+      "sha256": "324d21e692f4102211644aa23f7e7dd9c930bc68e33634fdf058eeb9385f1a9b",
+      "bytes": 4608
+    }
+  ]
+}
