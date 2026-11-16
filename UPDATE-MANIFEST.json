@@ -1,0 +1,66 @@
+{
+  "repository": "sarancsk4536-ship-it/koncept_3",
+  "baseline_commit": "a5fbb637deac28d3bb24682e60759cdfd8f7b50b",
+  "baseline_deployed_catalog_sha256": "14c7ec195cbb7a6407cf3dadc8c30f5ce1ecec875fd3f69cfce5b4fbb85a6815",
+  "source_file": "Вставленный Markdown(20261116-060837).md",
+  "source_sha256": "d31db3e0c61fc7e2f3262d641453f9d2bc434178b3a9ad9a9d73d39fa894bf31",
+  "snapshot": "16.11.2026",
+  "files": [
+    {
+      "path": "README.md",
+      "action": "replace",
+      "before_sha256": "9c8c3f515f6adbc81237e693defad6df02175977f5215e57a93d0879aed64789",
+      "after_sha256": "10fc998112d3cce2dd021e30035f83bdf08205e2f7d07a953ee190df4f01482d",
+      "bytes": 5707
+    },
+    {
+      "path": "dist/catalog.json",
+      "action": "replace",
+      "before_sha256": "14c7ec195cbb7a6407cf3dadc8c30f5ce1ecec875fd3f69cfce5b4fbb85a6815",
+      "after_sha256": "453e35fff89f558d695afb69ea5cd830132ff6a7ea755c39a46f92c212530b5a",
+      "bytes": 451425
+    },
+    {
+      "path": "dist/index.html",
+      "action": "replace",
+      "before_sha256": "4adc5ae81013ba8857c12595aac89dfb767b65058f25a42d562cbbd1492ade95",
+      "after_sha256": "4ab1b512c2252dca56d3b4c4d3e445c47f8fec9694d8c4298dfa9f98ec12a981",
+      "bytes": 3229
+    },
+    {
+      "path": "scripts/build-data.py",
+      "action": "replace",
+      "before_sha256": "d37085c064b2622ce62681ad6f39895879a8b8b193d3cef04af5785938eebfd8",
+      "after_sha256": "e02e9915b49c09af858b4a14e0b1cf47083ded6316d93c86d5828d9fd06a98c3",
+      "bytes": 7007
+    },
+    {
+      "path": "scripts/catalog-source.md",
+      "action": "replace",
+      "before_sha256": "c419412b69918c3bf3d1885ad844755823db83654013a0b5a94de04ce264dcb0",
+      "after_sha256": "d31db3e0c61fc7e2f3262d641453f9d2bc434178b3a9ad9a9d73d39fa894bf31",
+      "bytes": 409824
+    },
+    {
+      "path": "scripts/placement-audit.json",
+      "action": "replace",
+      "before_sha256": "f0afeadfbc243f1c7321aa5d313fb99a11a31538c701d8c1b9d2c2cf5c3bd137",
+      "after_sha256": "aebd668573f98103d671a2a01f8cd5a0493bc0b7dc96a22d680c4fbf831bdea5",
+      "bytes": 254295
+    },
+    {
+      "path": "scripts/reference-links.json",
+      "action": "add",
+      "before_sha256": null,
+      "after_sha256": "27e334ad82bff11cad3e128f1da80c7956d3b795216bac21cd9f46b825ec0e5c",
+      "bytes": 38899
+    },
+    {
+      "path": "scripts/sheet-source.json",
+      "action": "replace",
+      "before_sha256": "ecce6b7e9db758b0b9a3bae145619f85dd4c3000f602c3bd6e4e6657f1c6e514",
+      "after_sha256": "936eb8ad22c15d64792f22ace9d1acf958a89d85022da0c62ad87a428f18f9bd",
+      "bytes": 484377
+    }
+  ]
+}
